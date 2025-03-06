@@ -1,4 +1,4 @@
-# src/pyiwy/handler.py
+# pyiwy/handler.py
 
 import sys
 from .exceptions_data import get_funny_message

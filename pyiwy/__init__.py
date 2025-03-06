@@ -1,4 +1,4 @@
-# humorous_exceptions/__init__.py
+# pyiwy/__init__.py
 import sys
 
 from .handler import humor_excepthook

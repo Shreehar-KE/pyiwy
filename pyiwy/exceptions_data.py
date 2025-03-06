@@ -1,3 +1,5 @@
+# pyiwy/exceptions_data.py
+
 import sys
 
 # Dictionary of funny exception messages
