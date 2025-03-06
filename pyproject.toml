@@ -24,3 +24,6 @@ classifiers = [
     "Topic :: Software Development :: Debuggers",
 ]
 
+[project.urls]
+Repository = "https://github.com/Shreehar-KE/pyiwy"
+Issues = "https://github.com/Shreehar-KE/pyiwy/issues"
