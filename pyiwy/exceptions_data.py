@@ -13,7 +13,7 @@ EXCEPTION_MESSAGES = {
     ImportError: "Import failed! Maybe the module took a vacation. 🏖️",
     LookupError: "Couldn't find what you were looking for. Maybe try Google? 🔍",
     IndexError: "Whoa! That index is out of range. Have you considered lists start at 0? 📏",
-    KeyError: "That key doesn’t exist! Maybe it got lost in the matrix. 🔑💻",
+    KeyError: "That key doesn't exist! Maybe it got lost in the matrix. 🔑💻",
     MemoryError: "Out of memory! Maybe it's time to close some Chrome tabs? 💾🔥",
     NameError: "You referenced a variable that doesn't exist. Maybe it got lost in a different scope? 🌎",
     UnboundLocalError: "You tried using a local variable before defining it. Premature enthusiasm? 😆",
@@ -29,7 +29,7 @@ EXCEPTION_MESSAGES = {
     UnicodeError: "Unicode issue detected! Maybe your text needs therapy. 📝💭",
     UnicodeDecodeError: "Decoding failed! Your text is speaking in an unknown language. 🌍🤖",
     UnicodeEncodeError: "Encoding failed! Python refuses to speak that dialect. 💬🚫",
-    UnicodeTranslateError: "Translation failed! Maybe Python isn’t bilingual? 🤷",
+    UnicodeTranslateError: "Translation failed! Maybe Python isn't bilingual? 🤷",
     Warning: "This is a warning, not an error. But you should still be scared. 😨",
     BytesWarning: "Byte-related warning! 0s and 1s are rebelling. 🧮",
     DeprecationWarning: "This feature is old and might disappear. Just like my motivation. 😴",
@@ -46,7 +46,7 @@ EXCEPTION_MESSAGES = {
 if sys.version_info >= (3, 3):
     EXCEPTION_MESSAGES.update(
         {
-            BlockingIOError: "Something’s blocking the operation. Maybe it’s Monday? ⛔😩",
+            BlockingIOError: "Something's blocking the operation. Maybe it's Monday? ⛔😩",
             ChildProcessError: "The child process misbehaved. Kids these days! 👶💻",
             ConnectionError: "Lost connection! Maybe the internet just took a coffee break. ☕",
             BrokenPipeError: "Pipe broken! Who dropped the wrench?! 🔧💥",
