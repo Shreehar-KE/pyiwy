@@ -17,9 +17,10 @@ import pyiwy  # Just import it, and it's active!
 print(10 / 0)  # ZeroDivisionError
 ```
 💥 Output:
-```python
+```sh
 🔥 ERROR ALERT 🔥
-Nice try! You just attempted to divide by zero. Even your calculator is shaking its head. 🤦
+Nice try! Even Python can't divide by zero. 🤦
+
 Original Error: division by zero
 ```
 ## 🚀 Installation
@@ -43,13 +44,13 @@ print("text" + 5)  # TypeError
 
 |Exception|Funny Message|
 |---------|-------------|
-|ZeroDivisionError|"Nice try! You just attempted to divide by zero. Even your calculator is shaking its head. 🤦"|
-|TypeError|	"Hmm... you just mixed up data types. Python is not a smoothie blender! 🥤"|
-|KeyError|	"That key doesn't exist! Maybe it got lost in the matrix? 🔑💻"|
-|FileNotFoundError|	"File not found! Maybe it's playing hide and seek? 🕵️‍♂️"|
-|RecursionError|	"Recursion limit reached! Recursion limit reached! Recursion limit reached! 🔄"|
-|AttributeError|	"That attribute doesn’t exist! Maybe it left the codebase and became an entrepreneur? 🚀"|
-|TimeoutError|	"Operation took too long. Python is impatient, unlike your crush. ⏳"|
+|ZeroDivisionError|"Nice try! Even Python can't divide by zero. 🤦"|
+|TypeError|"You just mixed up data types. Python is not a smoothie blender! 🥤"|
+|KeyError|"That key doesn't exist! Maybe it got lost in the matrix. 🔑💻"|
+|FileNotFoundError|"File not found! Maybe it's playing hide and seek? 🕵️‍♂️"|
+|RecursionError|"Recursion limit reached! Recursion limit reached! Recursion limit reached! 🔄"|
+|AttributeError|"That attribute doesn't exist! Maybe it left the codebase to follow its dreams. 🚀"|
+|TimeoutError|"Operation took too long. Python is impatient, unlike your crush. ⏳"|
 
 ## 🧪 Running Tests
 To run unit tests, use:
